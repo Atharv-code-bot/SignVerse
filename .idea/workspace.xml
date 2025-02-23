@@ -6,14 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="4fdd769d-6b77-4832-8dd9-3dae8b5b44e4" name="Changes" comment="newly added">
       <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/AuthUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/OAuth2AuthenticationFailureHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/OAuth2AuthenticationSuccessHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/config/UserDetailsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/ISL/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/ISL/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/controller/ChatbotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/controller/ISLToTextController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/dto/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/service/CustomOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/service/GeminiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/service/ISLModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/service/TextToISLModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/service/TranslationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ISL/src/main/java/com/ISL/ISL/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740225999436</updated>
       <workItem from="1740226000473" duration="486000" />
-      <workItem from="1740228620992" duration="208000" />
+      <workItem from="1740228620992" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="newly added">
       <option name="closed" value="true" />
